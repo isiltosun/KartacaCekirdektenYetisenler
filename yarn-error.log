@@ -1,0 +1,47 @@
+Arguments: 
+  /home/yaditos/.nvm/versions/node/v15.12.0/bin/node /home/yaditos/.nvm/versions/node/v15.12.0/bin/yarn add routing-controller reflect-metadata koa koa-router koa-bodyparser koa-multer
+
+PATH: 
+  /home/yaditos/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/bin:/home/yaditos/.nvm/versions/node/v15.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/yisil/.dnx/bin:/mnt/c/Program Files/Microsoft DNX/Dnvm/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Go/bin:/mnt/c/Users/yisil/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yisil/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/yisil/.dotnet/tools:/mnt/c/Users/yisil/AppData/Roaming/npm:/mnt/c/Users/yisil/go/bin:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin:/home/yaditos/go/bin:/usr/local/go/bin:/home/yaditos/go/bin:/usr/local/go/bin:/home/yaditos/go/bin:/home/yaditos/.config/yarn/global:/usr/local/go/bin:/home/yaditos/go/bin:/home/yaditos/.config/yarn/global/node_modules/.bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/routing-controller: Not found
+      at Request.params.callback [as _callback] (/home/yaditos/.nvm/versions/node/v15.12.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/yaditos/.nvm/versions/node/v15.12.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:369:20)
+      at Request.<anonymous> (/home/yaditos/.nvm/versions/node/v15.12.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:369:20)
+      at IncomingMessage.<anonymous> (/home/yaditos/.nvm/versions/node/v15.12.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:475:28)
+      at IncomingMessage.emit (node:events:381:22)
+      at endReadableNT (node:internal/streams/readable:1307:12)
+      at processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+npm manifest: 
+  {
+    "name": "kartacacekirdektenyetisenler",
+    "version": "1.0.0",
+    "main": "build/index.js",
+    "repository": "https://github.com/isiltosun/KartacaCekirdektenYetisenler.git",
+    "author": "Yadigar Işıl Tosun <y.isiltosun@gmail.com>",
+    "license": "nolicense",
+    "private": true,
+    "scripts": {
+      "build": "tsc"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
